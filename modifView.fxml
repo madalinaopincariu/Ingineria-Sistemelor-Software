@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="modifButton" layoutX="170.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleModifButton" prefHeight="49.0" prefWidth="133.0" text="Modif Product">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="314.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleCancelButton" prefHeight="49.0" prefWidth="133.0" text="Cancel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text layoutX="285.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name" wrappingWidth="46.275390625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="263.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="new quantity" wrappingWidth="99.275390625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="269.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="new price" wrappingWidth="78.275390625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameField" layoutX="209.0" layoutY="74.0" prefHeight="34.0" prefWidth="211.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="newPriceField" layoutX="247.0" layoutY="214.0" prefHeight="34.0" prefWidth="123.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="newQuantityField" layoutX="247.0" layoutY="147.0" prefHeight="34.0" prefWidth="123.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

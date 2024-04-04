@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="loginButton" layoutX="224.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="45.0" prefWidth="160.0" text="Login" textFill="#726c6c">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="133.0" layoutY="165.0" prefHeight="41.0" prefWidth="111.0" text="username" textFill="#726c6c">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="217.0" prefHeight="41.0" prefWidth="111.0" text="password" textFill="#726c6c">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="257.0" layoutY="163.0" prefHeight="41.0" prefWidth="193.0" promptText="username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="257.0" layoutY="217.0" prefHeight="41.0" prefWidth="193.0" promptText="password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6c6c6" height="82.0" layoutX="87.0" layoutY="43.0" stroke="#c6c6c6" strokeType="INSIDE" width="428.0" />
+      <Label layoutX="154.0" layoutY="55.0" prefHeight="59.0" prefWidth="300.0" text="Firma de produse" textFill="#656464">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Circle fill="#c6c6c6" layoutX="92.0" layoutY="84.0" radius="41.0" stroke="#c6c6c6" strokeType="INSIDE" />
+      <Circle fill="#c6c6c6" layoutX="509.0" layoutY="84.0" radius="41.0" stroke="#c6c6c6" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

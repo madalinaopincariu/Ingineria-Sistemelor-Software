@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="172.0" layoutY="54.0" prefHeight="59.0" prefWidth="257.0" text="Manager Menu">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="addButton" layoutX="124.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleAdd" prefHeight="59.0" prefWidth="169.0" text="Add Product">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="findButton" layoutX="124.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleFind" prefHeight="59.0" prefWidth="169.0" text="Find Product">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteButton" layoutX="308.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleDelete" prefHeight="59.0" prefWidth="169.0" text="Delete Product">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="modifButton" layoutX="308.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleModif" prefHeight="59.0" prefWidth="169.0" text="Modif Product">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutButton" layoutX="216.0" layoutY="304.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="59.0" prefWidth="169.0" text="Logout">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="productTableView" layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="498.0">
+         <columns>
+            <TableColumn fx:id="nameColumn" prefWidth="144.0" text="name" />
+            <TableColumn fx:id="descriprionColumn" prefWidth="216.0" text="description" />
+            <TableColumn fx:id="priceColumn" prefWidth="69.0" text="price" />
+            <TableColumn fx:id="quantityColumn" prefWidth="68.0" text="quantity" />
+         </columns>
+      </TableView>
+      <Button fx:id="logoutButton" layoutX="545.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleLogoutButton" prefHeight="49.0" prefWidth="131.0" text="Logout">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="searchButton" layoutX="545.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleSearchButton" prefHeight="49.0" prefWidth="131.0" text="Search Product">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="buyButton" layoutX="545.0" layoutY="180.0" mnemonicParsing="false" onAction="#handleBuyButton" prefHeight="49.0" prefWidth="131.0" text="Buy Product">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TextField fx:id="searchTextBox" alignment="CENTER" layoutX="516.0" layoutY="60.0" prefHeight="36.0" prefWidth="188.0" promptText="search product">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="historyButton" layoutX="545.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleOrderHistoryButton" prefHeight="49.0" prefWidth="131.0" text="Order History">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
